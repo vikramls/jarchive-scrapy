@@ -3,9 +3,7 @@ jarchive-scrapy
 
 Scrape j-archive pages using scrapy. 
 
-What
-----
-A quick project to learn scrapy and prepare for Jeopardy!
+A quick project to learn scrapy and prepare for Jeopardy! 
 
 Dependencies
 ------------
@@ -22,3 +20,10 @@ Python2.7 since scrapy needs python27 and sqlite3 (from the standard library). H
 * wsgiref==0.1.2
 * zope.interface==4.1.0
 
+Run
+---
+
+# Install scrapy using ``pip install scrapy``. 
+# Clone this repository
+# ``cd`` into the clone and issue ``scrapy crawl jarchive``
+# ``jarchive.sqlite`` will be created after the crawler finishes.
