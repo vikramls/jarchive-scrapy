@@ -23,7 +23,7 @@ Python2.7 since scrapy needs python27 and sqlite3 (from the standard library). H
 Run
 ---
 
-# Install scrapy using ``pip install scrapy``. 
-# Clone this repository
-# ``cd`` into the clone and issue ``scrapy crawl jarchive``
-# ``jarchive.sqlite`` will be created after the crawler finishes.
+#. Install scrapy using ``pip install scrapy``. 
+#. Clone this repository.
+#. ``cd`` into the clone and issue ``scrapy crawl jarchive``.
+#. ``jarchive.sqlite`` will be created after the crawler finishes.
