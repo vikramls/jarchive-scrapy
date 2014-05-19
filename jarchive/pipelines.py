@@ -16,6 +16,10 @@ class JarchivePipeline(object):
 
 
 class JarchiveSQLPipeline(object):
+    """ 
+    SQLITE DB pipeline. Processes items into a sqlite DB.
+    From: https://github.com/feiskyer/Scrapy-Examples/blob/master/blog_crawl/blog_crawl/pipelines.py
+    """
     filename = 'jarchive.sqlite'
     def __init__(self):
         self.conn = None
